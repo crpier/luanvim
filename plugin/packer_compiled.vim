@@ -76,21 +76,33 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/cris/.local/share/nvim/site/pack/packer/start/gruvbox"
   },
-  ["neovim-lspconfig"] = {
-    loaded = true,
-    path = "/home/cris/.local/share/nvim/site/pack/packer/start/neovim-lspconfig"
-  },
   ["nvim-compe"] = {
     loaded = true,
     path = "/home/cris/.local/share/nvim/site/pack/packer/start/nvim-compe"
+  },
+  ["nvim-lspconfig"] = {
+    loaded = true,
+    path = "/home/cris/.local/share/nvim/site/pack/packer/start/nvim-lspconfig"
+  },
+  ["nvim-lspinstall"] = {
+    loaded = true,
+    path = "/home/cris/.local/share/nvim/site/pack/packer/start/nvim-lspinstall"
   },
   ["nvim-tree.lua"] = {
     loaded = true,
     path = "/home/cris/.local/share/nvim/site/pack/packer/start/nvim-tree.lua"
   },
+  ["nvim-treesitter"] = {
+    loaded = true,
+    path = "/home/cris/.local/share/nvim/site/pack/packer/start/nvim-treesitter"
+  },
   ["packer.nvim"] = {
     loaded = true,
     path = "/home/cris/.local/share/nvim/site/pack/packer/start/packer.nvim"
+  },
+  ["vim-unimpaired"] = {
+    loaded = true,
+    path = "/home/cris/.local/share/nvim/site/pack/packer/start/vim-unimpaired"
   }
 }
 

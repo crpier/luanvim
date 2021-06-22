@@ -1,3 +1,6 @@
 require('plugins')
+require('n-globals')
 require('keymappings')
 require('n-compe')
+require('lsp.lua-ls')
+require('settings')

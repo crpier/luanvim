@@ -17,4 +17,22 @@ return require('packer').startup(function()
   use 'kyazdani42/nvim-tree.lua'
   use 'neovim/nvim-lspconfig'
   use 'hrsh7th/nvim-compe'
+  use 'kabouzeid/nvim-lspinstall'
+  use 'tpope/vim-unimpaired'
+  use { 'nvim-treesitter/nvim-treesitter', run = ':TSUpdate' }
+  use 'kyazdani42/nvim-web-devicons'
+  use 'glepnir/galaxyline.nvim'
+
+  use 'nvim-lua/popup.nvim'
+  use 'nvim-lua/plenary.nvim'
+  use 'nvim-telescope/telescope.nvim'
+  use 'nvim-telescope/telescope-media-files.nvim'
+
+  use 'glepnir/lspsaga.nvim'
+  -- A bit of pandering, should remove
+  use 'onsails/lspkind-nvim'
+  use 'kosayoda/nvim-lightbulb'
+  use 'mfussenegger/nvim-jdtls'
+  use 'mfussenegger/nvim-dap'
+  use 'christianchiarulli/nvcode-color-schemes.vim'
 end)
