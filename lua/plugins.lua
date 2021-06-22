@@ -1,5 +1,6 @@
 local execute = vim.api.nvim_command
 local fn = vim.fn
+local use = require('packer').use
 
 local install_path = fn.stdpath('data')..'/site/pack/packer/start/packer.nvim'
 
@@ -19,10 +20,14 @@ return require('packer').startup(function()
   use 'hrsh7th/nvim-compe'
   use 'kabouzeid/nvim-lspinstall'
   use 'tpope/vim-unimpaired'
+  use 'tpope/vim-surround'
+  use 'bkad/CamelCaseMotion'
   use { 'nvim-treesitter/nvim-treesitter', run = ':TSUpdate' }
   use 'kyazdani42/nvim-web-devicons'
   use 'glepnir/galaxyline.nvim'
+  use { 'akinsho/nvim-bufferline.lua', requires = 'kyazdani42/nvim-web-devicons' }
 
+  -- Telescope
   use 'nvim-lua/popup.nvim'
   use 'nvim-lua/plenary.nvim'
   use 'nvim-telescope/telescope.nvim'

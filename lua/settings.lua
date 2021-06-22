@@ -33,6 +33,9 @@ vim.o.updatetime = 300 -- Faster completion
 -- vim.o.timeoutlen = O.timeoutlen -- By default timeoutlen is 1000 ms
 vim.o.clipboard = "unnamedplus" -- Copy paste between vim and everything else
 -- vim.g.nvim_tree_disable_netrw = O.nvim_tree_disable_netrw -- enable netrw for remote gx gf support (must be set before plugin's packadd)
-vim.cmd('filetype plugin on') -- filetype detection
-vim.cmd('colorscheme gruvbox') -- transparent background
-vim.cmd('hi Normal guibg=NONE ctermbg=NONE') -- transparent background
+vim.cmd('filetype plugin on') -- fileType detection
+vim.cmd('set undofile')
+vim.cmd('set noswapfile')
+vim.cmd('set nobackup')
+vim.cmd('set undodir=~/.vim/nvim_undodir')
+vim.g.camelcasemotion_key = '\\'

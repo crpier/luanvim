@@ -72,13 +72,49 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
+  CamelCaseMotion = {
+    loaded = true,
+    path = "/home/cris/.local/share/nvim/site/pack/packer/start/CamelCaseMotion"
+  },
+  ["galaxyline.nvim"] = {
+    loaded = true,
+    path = "/home/cris/.local/share/nvim/site/pack/packer/start/galaxyline.nvim"
+  },
   gruvbox = {
     loaded = true,
     path = "/home/cris/.local/share/nvim/site/pack/packer/start/gruvbox"
   },
+  ["lspkind-nvim"] = {
+    loaded = true,
+    path = "/home/cris/.local/share/nvim/site/pack/packer/start/lspkind-nvim"
+  },
+  ["lspsaga.nvim"] = {
+    loaded = true,
+    path = "/home/cris/.local/share/nvim/site/pack/packer/start/lspsaga.nvim"
+  },
+  ["nvcode-color-schemes.vim"] = {
+    loaded = true,
+    path = "/home/cris/.local/share/nvim/site/pack/packer/start/nvcode-color-schemes.vim"
+  },
+  ["nvim-bufferline.lua"] = {
+    loaded = true,
+    path = "/home/cris/.local/share/nvim/site/pack/packer/start/nvim-bufferline.lua"
+  },
   ["nvim-compe"] = {
     loaded = true,
     path = "/home/cris/.local/share/nvim/site/pack/packer/start/nvim-compe"
+  },
+  ["nvim-dap"] = {
+    loaded = true,
+    path = "/home/cris/.local/share/nvim/site/pack/packer/start/nvim-dap"
+  },
+  ["nvim-jdtls"] = {
+    loaded = true,
+    path = "/home/cris/.local/share/nvim/site/pack/packer/start/nvim-jdtls"
+  },
+  ["nvim-lightbulb"] = {
+    loaded = true,
+    path = "/home/cris/.local/share/nvim/site/pack/packer/start/nvim-lightbulb"
   },
   ["nvim-lspconfig"] = {
     loaded = true,
@@ -96,9 +132,33 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/cris/.local/share/nvim/site/pack/packer/start/nvim-treesitter"
   },
+  ["nvim-web-devicons"] = {
+    loaded = true,
+    path = "/home/cris/.local/share/nvim/site/pack/packer/start/nvim-web-devicons"
+  },
   ["packer.nvim"] = {
     loaded = true,
     path = "/home/cris/.local/share/nvim/site/pack/packer/start/packer.nvim"
+  },
+  ["plenary.nvim"] = {
+    loaded = true,
+    path = "/home/cris/.local/share/nvim/site/pack/packer/start/plenary.nvim"
+  },
+  ["popup.nvim"] = {
+    loaded = true,
+    path = "/home/cris/.local/share/nvim/site/pack/packer/start/popup.nvim"
+  },
+  ["telescope-media-files.nvim"] = {
+    loaded = true,
+    path = "/home/cris/.local/share/nvim/site/pack/packer/start/telescope-media-files.nvim"
+  },
+  ["telescope.nvim"] = {
+    loaded = true,
+    path = "/home/cris/.local/share/nvim/site/pack/packer/start/telescope.nvim"
+  },
+  ["vim-surround"] = {
+    loaded = true,
+    path = "/home/cris/.local/share/nvim/site/pack/packer/start/vim-surround"
   },
   ["vim-unimpaired"] = {
     loaded = true,
