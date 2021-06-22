@@ -1,6 +1,6 @@
 require"bufferline".setup{
     options = {
-        numbers = "ordinal"
+        numbers = "buffer_id"
     }
 }
 
@@ -8,5 +8,5 @@ require"bufferline".setup{
 vim.api.nvim_set_keymap('n', ']b', ':BufferLineCycleNext<CR>', { noremap = true})
 vim.api.nvim_set_keymap('n', '[b', ':BufferLineCyclePrev<CR>', { noremap = true})
 
-vim.api.nvim_set_keymap('n', ']m', ':BufferLineMoveNext<CR>', { noremap = true})
-vim.api.nvim_set_keymap('n', '[m', ':BufferLineMovePrev<CR>', { noremap = true})
+vim.api.nvim_set_keymap('n', 'g>', ':BufferLineMoveNext<CR>', { noremap = true})
+vim.api.nvim_set_keymap('n', 'g<', ':BufferLineMovePrev<CR>', { noremap = true})

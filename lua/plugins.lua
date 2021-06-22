@@ -40,4 +40,13 @@ return require('packer').startup(function()
   use 'mfussenegger/nvim-jdtls'
   use 'mfussenegger/nvim-dap'
   use 'christianchiarulli/nvcode-color-schemes.vim'
+  use {
+      'lewis6991/gitsigns.nvim',
+      requires = {
+          'nvim-lua/plenary.nvim'
+      },
+      config = function()
+          require('gitsigns').setup()
+      end
+  }
 end)

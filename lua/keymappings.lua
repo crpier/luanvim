@@ -1,7 +1,6 @@
 -- Leader key and leader keymaps
 vim.api.nvim_set_keymap('n', '<Space>', '<NOP>', { noremap = true, silent = true })
 vim.g.mapleader = ' '
-vim.api.nvim_set_keymap('n', '<Leader>h', ':set hlsearch!<CR>', { noremap = true, silent = true })
 vim.api.nvim_set_keymap('n', '<Leader>e', ':NvimTreeToggle<CR>', { noremap = true, silent = true })
 -- Window movement with arrows
 vim.api.nvim_set_keymap('n', '<Left>', '<C-w>h', {silent = true})
@@ -26,3 +25,5 @@ vim.api.nvim_set_keymap('n', '<TAB>', ':bnext<CR>', { noremap = true, silent = t
 vim.api.nvim_set_keymap('n', '<S-TAB>', ':bprev<CR>', { noremap = true, silent = true })
 -- Exit term easy
 vim.api.nvim_set_keymap('t', '<C-\\>', '<C-\\><C-n>', { noremap = true, silent = true })
+-- Press Esc in noremal mode to make highlighting go away
+vim.api.nvim_set_keymap('n', '<Esc>', '<Cmd>nohlsearch<CR>', { noremap = true, silent = true })
